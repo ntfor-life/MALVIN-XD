@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "malvin~B2VkiK6Y#TpMXSUv1d3yT6W-YWLzrEKmxEVmirkLWqurqCtPKIGA",
+SESSION_ID: process.env.SESSION_ID || "malvin~E7NA1QBJ#pgBGibc-G84ExZkJ4o8v2_CKo5esyuIYbf6OkQWn3-c",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || "'",
 // add your prifix for bot   
@@ -19,7 +19,7 @@ LINK_WHITELIST: "youtube.com,github.com",
 
     LINK_WARN_LIMIT: 3, // Number of warnings before action
 
-    LINK_ACTION: "kick", // "kick", "mute", or "none"
+    LINK_ACTION: "kickall", // "kick", "mute", or "none"
 
         AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -68,7 +68,7 @@ LINK_WHITELIST: "youtube.com,github.com",
           DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 
-          OWNER_NUMBER: process.env.OWNER_NUMBER || "18292748112",
+          OWNER_NUMBER: process.env.OWNER_NUMBER || "18293511531",
 // add your bot owner number
 
 OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴋɪɴɢ",
